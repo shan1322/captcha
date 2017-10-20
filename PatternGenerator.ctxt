@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=br
+comment0.target=int[]\ genVertical(java.awt.image.BufferedImage)
+comment1.params=br
+comment1.target=int[]\ genHorizontal(java.awt.image.BufferedImage)
+numComments=2

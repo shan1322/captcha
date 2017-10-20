@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=c
+comment0.target=Pixel(java.awt.Color)
+comment0.text=\r\n\ Initialize\ pixel\ with\ a\ Color\r\n\ @param\ c\r\n
+comment1.params=
+comment1.target=int\ getValue()
+comment1.text=\r\n\ GETTER\r\n\ @return\ value\r\n
+comment2.params=value
+comment2.target=void\ setValue(int)
+comment2.text=\r\n\ SETTER\r\n\ @param\ value\r\n
+comment3.params=obj
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\r\n\ Override\ equals\ function\r\n
+comment4.params=
+comment4.target=int\ hashCode()
+comment5.params=
+comment5.target=java.awt.Color\ getColor()
+comment5.text=\r\n\ converts\ into\ Color\ for\ writing\r\n\ @return\ c\r\n
+comment6.params=
+comment6.target=void\ print()
+comment6.text=\r\n\ Print\ method\r\n
+numComments=7

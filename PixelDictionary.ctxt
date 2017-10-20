@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PixelDictionary()
+comment0.text=\r\n\ Default\ constructor\r\n
+comment1.params=key
+comment1.target=void\ putData(Pixel)
+comment1.text=\r\n\ Custom\ put\ method\r\n\ @param\ key\r\n
+comment2.params=
+comment2.target=void\ print()
+comment2.text=\r\n\ Custom\ print\ method\r\n
+numComments=3

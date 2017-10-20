@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=w\ h
+comment0.target=BinaryImage(int,\ int)
+comment0.text=\r\n\ Initialize\ BinaryImage\r\n\ @param\ w\r\n\ @param\ h\r\n
+comment1.params=im
+comment1.target=void\ read(java.awt.image.BufferedImage)
+comment1.text=\r\n\ Set\ data\ in\ it.\r\n\ 1\ represents\ black\r\n\ 0\ represents\ white\r\n\ @param\ im\r\n
+comment2.params=bi
+comment2.target=java.awt.image.BufferedImage\ write(java.awt.image.BufferedImage)
+comment2.text=\r\n\ returns\ BufferedImage\ from\ binary\r\n\ @param\ bi\r\n\ @return\r\n
+comment3.params=w\ h
+comment3.target=int\ getData(int,\ int)
+comment3.text=\r\n\ Returns\ binary\ value\ at\ a\ point\r\n\ @param\ w\r\n\ @param\ h\r\n\ @return\r\n
+comment4.params=
+comment4.target=int[]\ getDimension()
+comment4.text=\r\n\ Returns\ dimension\ of\ image\r\n\ @return\r\n
+comment5.params=x1\ y1\ x2\ y2
+comment5.target=BinaryImage\ getSubImage(int,\ int,\ int,\ int)
+comment5.text=\r\n\ Returns\ a\ cropped\ image\ of\ the\ original\r\n\ @param\ x1\ upper\ left\ X\r\n\ @param\ y1\ upper\ left\ Y\r\n\ @param\ x2\ lower\ right\ X\r\n\ @param\ y2\ lower\ right\ Y\r\n\ @return\r\n
+comment6.params=file
+comment6.target=void\ save(java.lang.String)
+comment6.text=\r\n\ Prints\ the\ image\ in\ a\ file\r\n\ @param\ file\ filename\r\n
+numComments=7

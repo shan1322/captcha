@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=bi\ path\ index
+comment0.target=CharacterRecognizer(BinaryImage,\ java.lang.String,\ int)
+comment1.params=
+comment1.target=void\ extractLetters()
+comment1.text=\r\n\ Extracts\ characters\ from\ the\ captcha\r\n
+comment2.params=bi\ column
+comment2.target=int\ countPixelsVertical(BinaryImage,\ int)
+comment2.text=\r\n\ Counts\ black\ pixels\ in\ a\ column\r\n\ @param\ bi\r\n\ @param\ column\r\n\ @return\r\n
+numComments=3

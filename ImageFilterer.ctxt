@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=file
+comment0.target=ImageFilterer(java.lang.String)
+comment1.params=
+comment1.target=void\ removeNoiseByColor()
+comment1.text=\r\n\ Brief\ of\ the\ method\ and\ some\ assumptions\:\r\n\ Black\ is\ in\ the\ range\ 0\ to\ 51\r\n\ White\ is\ in\ the\ range\ 235\ to\ 255\r\n\ Rest\ is\ noise\ which\ will\ be\ converted\ into\ white\r\n
+comment2.params=
+comment2.target=void\ removeNoiseByWidth()
+comment2.text=\r\n\ Remove\ lines\ and\ noise\ from\ the\ background\r\n\ We\ assume\ a\ minimum\ boundary\ for\ text\ color\ scheme\r\n\ If\ any,\ lines\ are\ assumed\ to\ be\ one\ pixel\ wide\r\n\ If\ number\ of\ adjacent\ black\ pixels\ is\ less\ than\ or\ equal\ to\ two,\ it\ is\ removed\r\n
+comment3.params=
+comment3.target=void\ removeSpecialNoise()
+comment3.text=\r\n\ Remove\ special\ noise\ of\ double\ width\ lines\r\n
+comment4.params=
+comment4.target=void\ removeNoiseByCrop()
+comment4.text=\r\n\ Remove\ noise\ by\ cropping\ \r\n
+comment5.params=i\ j
+comment5.target=int\ getAdjacentPixels(int,\ int)
+comment5.text=\r\n\ Counts\ the\ number\ of\ adjacent\ black\ cells\r\n\ @param\ i\r\n\ @param\ j\r\n\ @return\ count\r\n
+comment6.params=i\ j
+comment6.target=boolean\ checkVertical(int,\ int)
+comment6.text=\r\n\ Checks\ if\ it\ has\ a\ black\ pixel\ above\ and\ a\ black\ pixel\ below\r\n\ @param\ i\r\n\ @param\ j\r\n\ @return\ boolean\r\n
+comment7.params=
+comment7.target=BinaryImage\ getBinary()
+comment7.text=\r\n\ Returns\ binary\ image\r\n\ @return\r\n
+numComments=8
